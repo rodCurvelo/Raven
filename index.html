@@ -15,7 +15,7 @@
 
   <!-- Navbar -->
   <nav class="grey darken-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo white-text">Raven</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo white-text">raven</a>
         <ul class="right hide-on-med-and-down">
           <li><a class="btn-large waves-effect waves-light grey darken-4" href="#">LEARN</a></li>
           <li><a class="btn-large waves-effect waves-light grey darken-4" href="#">COMMUNITY</a></li>
@@ -33,99 +33,184 @@
 
   <!-- First parallax (Corn field) -->
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <!-- Main logo -->
-        <img class="MainLogo center-align" src="logo-transparent.png">
-        <!-- Main logo End -->
+    <!-- <div class="section no-pad-bot">
+    </div> -->
+    <div class="parallax-container">
+        <div class="parallax cornFieldBG"><img src="backgroundBW.jpg">
+        </div>
+        <div class="container center-align hide-on-large-only">
+          <div class="row responsive-img">
+              <img class="blackBirdMobile responsive-img center-align" src="newBird_home.png">
+              <a class="btn_download waves-effect waves-light btn-large center-align black flow-text "><h6 class="flow-text center-align">Download raven</h6></a>
+          </div>
+          <div class="row center-align">
+              <div class="row col s12 center-align flow-text">
+                  <h5 class="col s6 try black-text center-align col s3 text-bold flow-text">Try raven</h5>
+                  <h5 class="col s6 open black-text center-align text-bold flow-text">Open in Playground</h5>
+              </div>
+              <div class="col s12 flow-text center-align"><textarea rows="12" cols="55" class="center-align flow-text">// You can edit this code!
+                  // Click here and start typing.
+                  package main
+                  
+                  import "fmt"
+                  
+                  func main() {
+                    fmt.Println("Hello, 世界")
+                  }</textarea>
+                  <textarea class="t_a_output" rows="5" cols="2">Hello, 世界. Program exited.</textarea>
+              </div>
+          </div>
+          <div class="row center-align">
+              
+              <div class="selector_container row col 12">
+                  <select class="btn_select_container browser-default flow-text">
+                      <option value="1">Hello, World!</option>
+                      <option value="2">Conway's Game Of Life</option>
+                      <option value="3">Fibonacci Closure</option>
+                      <option value="4">Peano Integers</option>
+                      <option value="5">Concurrent pi</option>
+                      <option value="6">Concurrent Prime Sieve</option>
+                      <option value="7">Peg Solitaire Solver</option>
+                      <option value="8">Tree Comparison</option>
+                  </select>
+                  <a class="btn_playground_opt waves-effect waves-light btn-large black">Run</a>
+              <a class="btn_playground_opt waves-effect waves-light btn-large black">Share</a>
+              <a class="btn_playground_opt waves-effect waves-light btn-large black">Tour</a>
+              </div>
+          </div>
+        </div>
+
         
-        <!-- Discover Paragraph -->
-        <br><br>
-        <!-- Discover Paragraph End-->
-      </div>
+        <div class="container parallaxBigScreen show-on-large hide-on-med-and-down ">
+            <div class="row">
+                <h5 class="try black-text left-align col s3 text-bold flow-text">Try raven</h5>
+                <h5 class="open black-text left-align col s9 text-bold flow-text">Open in Playground</h5>
+
+                <div class="col s6  flow-text">
+                  <textarea rows="12" cols="55" class="flow-text">// You can edit this code!
+                    // Click here and start typing.
+                    package main
+                    
+                    import "fmt"
+                    
+                    func main() {
+                      fmt.Println("Hello, 世界")
+                    }
+                  </textarea>
+                    <textarea class="t_a_output" rows="5" cols="2">
+                      Hello, 世界. Program exited.
+                    </textarea>
+                    <div class="row">
+                        <select class=" btn_select_container browser-default flow-text">
+                            <option value="1">Hello, World!</option>
+                            <option value="2">Conway's Game Of Life</option>
+                            <option value="3">Fibonacci Closure</option>
+                            <option value="4">Peano Integers</option>
+                            <option value="5">Concurrent pi</option>
+                            <option value="6">Concurrent Prime Sieve</option>
+                            <option value="7">Peg Solitaire Solver</option>
+                            <option value="8">Tree Comparison</option>
+                        </select>
+                  
+                        <div class="row center-align col s12">
+                            <a class="btn_playground_opt waves-effect waves-light btn black col s4 m4">Run</a>
+                            <a class="btn_playground_opt waves-effect waves-light btn black col s4 m4">Share</a>
+                            <a class="btn_playground_opt waves-effect waves-light btn black col s4 m3">Tour</a> 
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col s6">
+                  <img class="responsive-img center-align" src="newBird_home.png">
+                </div>
+
+                <div class="row col s3 m5 center-align flow-text">
+                  <a class="btn_download waves-effect waves-light btn-small center-align black flow-text"><h6 class="flow-text center-align">Download raven</h6></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="parallax"><img class="responsive-image" src="backgroundBW.jpg" alt="Unsplashed background img 1"></div>
+    
   </div>
   <br><br>
-  <!-- First parallax end -->
-
-
    <!--   Icon Section   -->
-  <div class="container">
-    <div class="section">  
-      <div class="row">
-        <h2 class=" whyRaven center-align">Why Raven?</h2>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center darken-4-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, beatae molestias quae incidunt veniam consequuntur atque quisquam. Perspiciatis labore ut maxime quo. Totam exercitationem quae aliquid deserunt amet minus excepturi esse, quia autem nam nobis eius soluta fugit distinctio quibusdam velit dicta nostrum saepe deleniti aliquam molestiae ut sapiente repudiandae animi.</p>
+   <div class="container">
+      <div class="section">  
+        <div class="row">
+          <h2 class=" whyRaven center-align">Why raven?</h2>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center darken-4-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Speeds up development</h5>
+  
+              <p class="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, beatae molestias quae incidunt veniam consequuntur atque quisquam. Perspiciatis labore ut maxime quo. Totam exercitationem quae aliquid deserunt amet minus excepturi esse, quia autem nam nobis eius soluta fugit distinctio quibusdam velit dicta nostrum saepe deleniti aliquam molestiae ut sapiente repudiandae animi.</p>
+            </div>
           </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center darken-4-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda molestias velit accusantium, omnis, quisquam nostrum, corrupti voluptate labore est modi inventore beatae aut odio voluptatem dolores! Quae cumque, obcaecati distinctio aperiam nesciunt voluptates, ducimus magni delectus praesentium numquam labore ex tempora expedita quis voluptatum repellendus veniam doloribus eum? Impedit, laboriosam?</p>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center darken-4-text"><i class="material-icons">group</i></h2>
+              <h5 class="center">User Experience Focused</h5>
+  
+              <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda molestias velit accusantium, omnis, quisquam nostrum, corrupti voluptate labore est modi inventore beatae aut odio voluptatem dolores! Quae cumque, obcaecati distinctio aperiam nesciunt voluptates, ducimus magni delectus praesentium numquam labore ex tempora expedita quis voluptatum repellendus veniam doloribus eum? Impedit, laboriosam?</p>
+            </div>
           </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center darken-4-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis commodi ad culpa, maxime officia delectus quasi. Possimus neque, explicabo vero reiciendis exercitationem iure mollitia quos ea quod ut pariatur! Voluptatem a placeat inventore sequi dignissimos corporis, possimus nesciunt obcaecati adipisci fuga accusantium porro molestiae temporibus quo quam? Perferendis, voluptas voluptatem!</p>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center darken-4-text"><i class="material-icons">settings</i></h2>
+              <h5 class="center">Easy to work with</h5>
+  
+              <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis commodi ad culpa, maxime officia delectus quasi. Possimus neque, explicabo vero reiciendis exercitationem iure mollitia quos ea quod ut pariatur! Voluptatem a placeat inventore sequi dignissimos corporis, possimus nesciunt obcaecati adipisci fuga accusantium porro molestiae temporibus quo quam? Perferendis, voluptas voluptatem!</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
    <!--   Icon Section  end -->
 
    <!-- Released -->
-   <section id="released" class="section section-popular scrollspy grey darken-4">
+   <section class="section grey darken-4">
       <div class="container">
-        <div class="row">
-          <h2 class="center-align"><span class="white-text">Raven X.XX Released</span></h4>
+        <div class="boxesID row show-on-large hide-on-med-and-down">
+          <h2 class="center-align"><span class="white-text">raven X.XX Released</span></h2>
             <br>
-            <div class="col s12 m3">
+            <div class="box1 col s12 m3 flow-text">
                 <div class="card black hoverable">
                   <div class="card-content white-text">
-                    <span class="card-title center-align"><h4>Raven Native</h4></span>
-                    <h6 class="center-align">reached Beta</h6>
+                    <span class="card-title center-align"><h4 class="center-align flow-text">raven Native</h4></span>
+                    <h6 class="center-align flow-text">reached Beta</h6>
                   </div>
                 </div>
               </div>
-          <div class="col s12 m3">
-              <div class="card black hoverable">
-                <div class="card-content white-text">
-                  <span class="card-title center-align"><h4>Coroutines</h4></span>
-                  <h6 class="center-align">are now stable</h6>
-                </div>
-              </div>
-          </div>
-          <div class="col s12 m3">
-              <div class="card black hoverable">
-                <div class="card-content white-text">
-                  <span class="card-title center-align"><h4>Multiplataform</h4></span>
-                  <h6 class="center-align">code reuse</h6>
+
+          <div class="box2 col s12 m3 center-align flow-text">
+              <div class="card black hoverable center-align">
+                <div class="card-content center-align white-text">
+                  <span class="card-title center-align"><h4 class="center-align flow-text">Coroutines</h4></span>
+                  <h6 class="center-align flow-text">are now stable</h6>
                 </div>
               </div>
           </div>
 
-          <div class="col s12 m3">
+          <div class="box3 col s12 m3 flow-text">
+              <div class="card black flow-text">
+                <div class="card-content white-text flow-text">
+                  <span class="card-title center-align flow-text"><h4 class="center-align flow-text">Multiplataform</h4><h6 class="center-align flow-text">code reuse</h6></span>
+                </div>
+              </div>
+          </div>
+
+          <div class="box4 col s12 m3 flow-text">
             <div class="card black hoverable">
-              <div class="card-content white-text">
-                <span class="card-title center-align"><h4>Learning Kits</h4></span>
-                <h6 class="center-align">start easily</h6>
+              <div class="card-content white-text flow-text">
+                <span class="card-title center-align"><h4 class="center-align flow-text">Learning Kits</h4></span>
+                <h6 class="center-align flow-text">start easily</h6>
               </div>
             </div>
           </div>
+
         </div>
       </div>
       <br><br>
@@ -133,40 +218,89 @@
       
       <!-- Programming Language -->
           <div class="row">
-              <h6 class="center-align white-text">Programming language for</h6><br>
-              <div class="container center-align">
-                  <div class="col s12 m3">
-                      <div class="card black hoverable">
-                        <div class="card-content grey darken2-text">
-                          <span class="card-title center-align"><h5>Java</h5></span>
+              <h5 class="center-align white-text">Programming language for</h5><br>
+              <!-- <div class="container center-align"> -->
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card black hoverable">
+                          <div class="card-content grey darken2-text">
+                            <span class="card-title center-align"><h5 class="center-align flow-text">Java</h5></span>
+                          </div>
                         </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m3">
-                      <div class="card black hoverable">
-                        <div class="card-content grey darken2-text">
-                          <span class="card-title center-align"><h5>Python</h5></span>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card black hoverable">
+                          <div class="card-content grey darken2-text">
+                            <span class="card-title center-align flow-text"><h5 class="center-align flow-text">Python</h5></span>
+                          </div>
                         </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m3">
-                      <div class="card black hoverable">
-                        <div class="card-content grey darken2-text">
-                          <span class="card-title center-align"><h5>Ruby</h5></span>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card black hoverable">
+                          <div class="card-content grey darken2-text">
+                            <span class="card-title center-align"><h5 class="center-align flow-text">Ruby</h5></span>
+                          </div>
                         </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m3">
-                      <div class="card black hoverable">
-                        <div class="card-content grey darken2-text">
-                          <span class="card-title center-align"><h5>JavaScript</h5></span>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card black hoverable">
+                          <div class="card-content grey darken2-text">
+                            <span class="card-title center-align"><h5 class="center-align flow-text">JS</h5></span>
+                          </div>
                         </div>
-                      </div>
-                  </div>
-              </div>
+                    </div>
+                </div>
           </div>
       <!-- Programming Language End -->
       </div>
+   </section>
+   <!-- Released End -->
+
+   <!-- Released -->
+   <section class="section grey darken-4 show-on-medium-and-down hide-on-large-only">
+      <div class="container">
+        <div class="row">
+          <h2 class="center-align"><span class="white-text">raven X.XX Released</span></h2>
+            <br>
+            <div class="box1 col s12 m6 flow-text">
+                <div class="card black hoverable">
+                  <div class="card-content white-text">
+                    <span class="card-title center-align"><h4 class="center-align flow-text">raven Native</h4></span>
+                    <h6 class="center-align flow-text">reached Beta</h6>
+                  </div>
+                </div>
+              </div>
+
+          <div class="box2 col s12 m6 center-align flow-text">
+              <div class="card black hoverable center-align">
+                <div class="card-content center-align white-text">
+                  <span class="card-title center-align"><h4 class="center-align flow-text">Coroutines</h4></span>
+                  <h6 class="center-align flow-text">are now stable</h6>
+                </div>
+              </div>
+          </div>
+
+          <div class="box3 col s12 m6 flow-text">
+              <div class="card black flow-text">
+                <div class="card-content white-text flow-text">
+                  <span class="card-title center-align flow-text"><h4 class="center-align flow-text">Multiplataform</h4></span>
+                  <h6 class="center-align flow-text">code reuse</h6>
+                </div>
+              </div>
+          </div>
+
+          <div class="box4 col s12 m6 flow-text">
+            <div class="card black hoverable">
+              <div class="card-content white-text flow-text">
+                <span class="card-title center-align"><h4 class="center-align flow-text">Learning Kits</h4></span>
+                <h6 class="center-align flow-text">start easily</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
    </section>
    <!-- Released End -->
 
@@ -176,13 +310,13 @@
 
       <div class="row">
         <div class="col s12 center-align">
-          <h2>Trust In Raven</h2>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          <h2>Trust In raven</h2>
+          <h5 class="left-align light black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. 
             Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, 
             posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. 
             Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, 
-            non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</h5>
         </div>
       </div>
     </div>
@@ -192,7 +326,7 @@
 
 
   <!-- Footer -->
-  <footer class="page-footer black">
+  <footer class="footerSection page-footer black">
     <div class="container">
       <div class="row">
           <!-- Get Help -->
@@ -205,11 +339,6 @@
                 <h5><li><a class="amber-text" href="#!">Check Website Status</a></li></h5>
               </ul>
               <br>
-              <h5><select class="browser-default col 15 s5">
-                <option value="1">English (en-US) &nbsp</option>
-                <option value="2">Português (pt-BR) &nbsp</option>
-                <option value="3">Italiano (it) &nbsp</option>
-              </select></h5>
           </div>
           <!-- Get Help End -->
 
@@ -231,18 +360,18 @@
          <div class="col l3 s12 row center-align">
           <h5 class="white-text">Social</h5>
           <br>
-          <div class="row center-align">
-              <div class="col s12 m4">
-                  <a class="socialI btn-floating btn-large waves-effect waves-light white" href="#!"><img class="responsive-img" src="linkedin (1).png" alt=""></a>
-                  <p><a class="black-text" href="#!">Linkedin</a></p>
+          <div class="row">
+              <div class="col s4">
+                  <a class="socialI btn-floating btn-large waves-effect waves-light white darken-4" href="#!"><img class="responsive-img" src="linkedin (1).png" alt=""></a>
+                  <p><a class="white-text" href="#!">Linkedin</a></p>
               </div>
-              <div class="col s12 m4">
-                  <a class="btn-floating btn-large waves-effect waves-light white" href="#!"><img class="responsive-img" src="facebook.png" alt=""></a>
-                  <p><a class="black-text" href="#!">Facebook</a></p>
+              <div class="col s4">
+                  <a class="socialI btn-floating btn-large waves-effect waves-light white darken-4" href="#!"><img class="responsive-img" src="facebook.png" alt=""></a>
+                  <p><a class="white-text" href="#!">Facebook</a></p>
               </div>
-              <div class="col s12 m4">
-                  <a class="btn-floating btn-large waves-effect waves-light white"  href="#!"><img class="responsive-img" src="twiiter96W.png" alt=""></a>
-                  <p><a class="black-text" href="#!">twitter</a></p>
+              <div class="col s4">
+                  <a class="socialI btn-floating btn-large waves-effect waves-light white darken-4" href="#!"><img class="responsive-img" src="twiiter96W.png" alt=""></a>
+                  <p><a class="white-text" href="#!">twitter</a></p>
               </div>
           </div>
         </div>
@@ -251,8 +380,7 @@
     </div>
     <div class="footer-copyright black">
       <div class="container">
-      <h5>Maintained by the Rust Team. See a typo? <a class="amber-text" href="http://materializecss.com"> Send a fix here</a>!</h5>
-      <h5>Looking for the <a class="amber-text" href="http://materializecss.com"> previous website</a>?</h5>
+      <h5>Maintained by the raven Team. See a typo? <a class="amber-text" href="http://materializecss.com"> Send a fix here</a>!</h5>
       <br><br>
       </div>
     </div>
