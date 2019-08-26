@@ -6,163 +6,163 @@
  * Made By MaterializeCSS.com
  */
 
+/**************** INDEX****************/
+/* 
+1 - TEXT
+2 - BUTTONS AND ICONS 
+3 - NAVBAR
+4 - IMAGES 
+5 - BUTTONS AND ICONS 
+6 - MEDIA QUERY
+ */
+
+/* 1 -  **********************************TEXT******************************** */
  * {
    font-family: arial;
  }
 
- nav ul a,
- nav .brand-logo {
-   color: #444;
- }
- 
  p {
-   line-height: 2rem;
- }
- 
- .sidenav-trigger {
-   color: #26a69a;
- }
- 
- .btn-floating.btn-large {
-   width: 90px;
-   height: 90px;
- }
- 
- .twitterI {
-   margin-top: 10px;
- }
- 
- .socialI {
-   border-color: black;
-   color: black;
-   background-color: black;
- }
- 
- 
- .whyRaven {
-   font-family: sans-serif;
-   font-weight: 'Extra-Bold' !important;
- }
- 
- .parallax-container {
-   min-height: 380px;
-   line-height: 0;
-   height: auto;
-   color: rgba(255,255,255,.9);
- }
-
- textarea {
-    width: 100%;
-    height: 100%;
-    resize: none;
-    background-color: white;
-    border-radius: 7px;
+  line-height: 2rem;
 }
 
-.btn_playground_opt {
-    margin-left: 1%;
-    border-radius: 6px;
-    margin: 7px;
-}
-
-.blackBirdMobile {
-  max-width: 52%;
-}
-
-textarea:active {
-    color: none;
-}
-
-.t_a_output {
-    margin-bottom: 3%;
-    border-radius: 7px;
-}
-
-.Playground-input {
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    resize: none;
-    padding: 0.625rem;
-}
-
-.Playground-input, .Playground-output {
-    padding: 0;
-    margin: 0;
-    font-family: Menlo, monospace;
-    font-size: 0.875rem;
-}
-
-.selector_container {
-    padding-left: 0px;
-    border-radius: 6px;
+.whyRaven {
+  font-family: sans-serif;
+  font-weight: 'Extra-Bold' !important;
 }
 
 .footerSection {
   font-family: sans-serif !important;
 }
 
-.btn_select_container {
-    border-radius: 6px;
-}
 
 .try, .open {
     font-weight: 900;
 }
 
-.btn_download {
-    border-radius: 6px;
-    height: 42px;
-    width: 66%;
+/* 1 - ***********************************TEXT END******************************************/
+
+/* 2 - **********************************BUTTONS AND ICONS******************************** */
+
+.btn-floating.btn-large {
+  width: 90px;
+  height: 90px;
 }
- 
- /* .MainLogo {
-   max-width: 50%;
-   height:auto;
-   margin-left: 13%;
- } */
-   .parallax-container .section {
-     width: 100%;
-   }
- 
- /* @media only screen and (max-width : 992px) {
-   .parallax-container .section {
-     position: absolute;
-     top: 40%;
-   }
-   #index-banner .section {
-     top: 10%;
-   }
- }
- 
- @media only screen and (max-width : 600px) {
-   #index-banner .section {
-     top: 0;
-   }
- } */
- 
- .icon-block {
-   padding: 0 15px;
- }
- .icon-block .material-icons {
-   font-size: inherit;
- }
- 
- footer.page-footer {
-   margin: 0;
- }
 
- .btn-floating {
-   border-style: solid;
-   border-color: grey;
- }
+.twitterI {
+  margin-top: 10px;
+}
 
- .section.no-pad-bot {
-   padding: 0px;
- }
+.socialI {
+  border-color: black;
+  color: black;
+  background-color: black;
+}
 
- /* Media Queryes */
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background-color: white;
+  border-radius: 7px;
+}
+
+
+textarea:active {
+  color: none;
+}
+
+.t_a_output {
+  margin-bottom: 3%;
+  border-radius: 7px;
+}
+
+.Playground-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 0.625rem;
+}
+
+.Playground-input, .Playground-output {
+  padding: 0;
+  margin: 0;
+  font-family: Menlo, monospace;
+  font-size: 0.875rem;
+}
+
+.selector_container {
+  padding-left: 0px;
+  border-radius: 6px;
+}
+
+
+.btn_playground_opt {
+  margin-left: 1%;
+  border-radius: 6px;
+  margin: 7px;
+}
+
+.btn_select_container {
+  border-radius: 6px;
+}
+
+.btn_download {
+  border-radius: 6px;
+  height: 42px;
+  width: 66%;
+}
+.icon-block {
+ padding: 0 15px;
+}
+.icon-block .material-icons {
+ font-size: inherit;
+}
+
+.btn-floating {
+  border-style: solid;
+  border-color: grey;
+}
+/* 2 - **********************************BUTTONS AND ICONS END*********************************/
+
+/* 3 - **********************************NAVBAR******************************** */
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ .sidenav-trigger {
+  color: #26a69a;
+}
+ /***********************************NAVBAR END******************************** */
+ 
+ /* 4 - **********************************IMAGES*********************************/
+ .blackBirdMobile {
+  max-width: 53%;
+}
+
+.parallax-container {
+  height: 682px;
+  display: block;
+}
+
+
+ /* 4 - **********************************IMAGES END*********************************/
+ 
+/* 5 - **********************************FOOTER************************************* */
+footer.page-footer {
+  margin: 0;
+}
+/* 5 - **********************************FOOTER END*********************************/
+ 
+
+
+
+
+
+ /************************* MEDIA QUERYES************************************* */
+
+ /* MIDDLE SIZE */
  /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1185px) {
   /* body {
@@ -172,10 +172,6 @@ textarea:active {
   .selector_container {
     width: 100%;
     color: bisque;
-  }
-
-  .sliderCornField {
-    width: 85%;
   }
 
   .boxesID {
@@ -192,15 +188,14 @@ textarea:active {
     width: 100%;
   }
 
-  .parallaxBigScreen {
-    display: none;
-  }
-
   .mobileSelector {
     display: none;
   }
-}
 
+  .parallax-container {
+    height: 1007px;
+  }
+}
 @media screen and (max-width: 1143px) {
   .btn_download {
     width: 89%;
@@ -209,17 +204,27 @@ textarea:active {
 
 @media screen and (max-width: 1528px) {
   .btn_download {
-    width: 87%;
+    width: 103%;
+    height: 44px;
+    background-color: pink;
+  }
+
+
+  .blackBirdMobile {
+    max-width: 53%;
   }
 }
 
-
-
-/* On screens that are 600px or less, set the background color to olive */
+/* MEDIA QUERY MOBILE */
 @media screen and (max-width: 589px) {
 
   .mobileSelector {
     width: 100%;
   }
+
+  .blackBirdMobile {
+    max-width: 53%;
+  }
 }
+/*************************MEDIA QUERYES END************************************* */
 
